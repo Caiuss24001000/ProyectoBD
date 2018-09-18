@@ -1,0 +1,4 @@
+2014081456 Marco Sanchez Uribe 20000 100
+1111 Juan Lopez Perez 20000 123
+2222 Pedro Hernandez Gutierrez 20000 1200
+12 Sergio Rodriguez Ramirez 12000 50000
