@@ -1,11 +1,11 @@
 #include <cstdlib>
 #include <iostream>
 #include <fstream>
-//#include <windows.h>
+#include <windows.h>
 #include <string.h>
 #include <stdio.h>
 #include <stdlib.h>
-#include <unistd.h>
+
 
 
 using namespace std;
@@ -58,7 +58,7 @@ void altas()
                 ///cout<<"\tIngresa el credito del cliente:    ";
                 //cin>>credito;
                 
-					do{
+				do{
                 cout<<"\tIngresa el credito del cliente:    ";
                 cin>>credito;
         			if (credito < 0){
@@ -125,12 +125,12 @@ void bajas()
                 if (auxidCliente==idCliente){
                         encontrado=true;
                         cout<<"\n";
-                        cout<<"\tID Cliente:    "<<idCliente<<endl;
-                        cout<<"\tNombre:   "<<nombre<<endl;
+                        cout<<"\tID Cliente:       "<<idCliente<<endl;
+                        cout<<"\tNombre:           "<<nombre<<endl;
                         cout<<"\tApellido Paterno: "<<apPaterno<<endl;
-                        cout<<"\tApellido Materno:    "<<apMaterno<<endl;
-                        cout<<"\tCredito:    "<<credito<<endl;
-                        cout<<"\tDeuda:    "<<deuda<<endl;
+                        cout<<"\tApellido Materno: "<<apMaterno<<endl;
+                        cout<<"\tCredito:          "<<credito<<endl;
+                        cout<<"\tDeuda:            "<<deuda<<endl;
                         cout<<"\t________________________________\n\n";
                         cout<<"\tRealmente deseas eliminar el registro actual (S/N)? ---> ";
                         cin>>opca;
